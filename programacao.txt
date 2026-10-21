@@ -1,1 +1,2 @@
 Minicurso IFCAMP - Programacao
+Aula 3: comandos essenciais do Git
