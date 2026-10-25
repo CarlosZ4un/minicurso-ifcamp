@@ -1,2 +1,3 @@
-Minicurso IFCAMP - Programação Oficial
+Minicurso IFCAMP 2026 - Programação Oficial
+
 Aula 3: comandos essenciais do Git
