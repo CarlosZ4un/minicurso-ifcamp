@@ -1,0 +1,19 @@
+services:
+  site:
+    build: ./site
+    ports:
+      - "5000:5000"
+
+  banco:
+    image: postgres:16
+    env_file: .env
+    volumes:
+      - dados-banco:/var/lib/postgresql/data
+
+  adminer:
+    image: adminer
+    ports:
+      - "8080:8080"
+
+volumes:
+  dados-banco:
